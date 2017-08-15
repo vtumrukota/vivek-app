@@ -1,5 +1,5 @@
 .home {
-  color: white;
+  background-color: white;
 };
 
 .home > h1 {
@@ -17,6 +17,7 @@
 .my-home-img {
   height: 200px;
   width: 200px;
+  margin: 0 auto;
   background-image: url('/assets/images/vivek-headshot.jpg');
   background-repeat: no-repeat;
   background-position: 50% 50%;

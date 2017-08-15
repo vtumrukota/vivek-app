@@ -3,7 +3,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 .content-container {

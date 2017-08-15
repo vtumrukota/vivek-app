@@ -10,13 +10,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { AboutComponent } from './about/about.component';
+import { ExperienceComponent } from './experience/experience.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NavbarComponent,
-    AboutComponent
+    AboutComponent,
+    ExperienceComponent
   ],
   imports: [
     FormsModule,
@@ -25,6 +27,7 @@ import { AboutComponent } from './about/about.component';
     RouterModule.forRoot([
       { path: 'home', component: HomeComponent },
       { path: 'about', component: AboutComponent },
+      { path: 'experience', component: ExperienceComponent },
     ]),
     routing,
   ],
