@@ -1,0 +1,11 @@
+#app-content {
+  background-image: url('/assets/images/sf-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+}
+
+.content-container {
+  background-color: white;
+}

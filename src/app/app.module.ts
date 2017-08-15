@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { routing } from './app.routes';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { FormsModule } from '@angular/forms';
+
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -17,6 +19,7 @@ import { AboutComponent } from './about/about.component';
     AboutComponent
   ],
   imports: [
+    FormsModule,
     BrowserModule,
     NgbModule.forRoot(),
     RouterModule.forRoot([

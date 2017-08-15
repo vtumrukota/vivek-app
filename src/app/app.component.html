@@ -1,9 +1,11 @@
-<div class="l-container bg-dark">
+<div class="l-container" id="app-content">
   <div class="container">
     <app-navbar></app-navbar>
   </div>
+
+  <div class="container">
+    <router-outlet class="content-container"></router-outlet>
+  </div>
 </div>
 
-<div class="container">
-  <router-outlet></router-outlet>
-</div>
+

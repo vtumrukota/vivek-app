@@ -1,1 +1,43 @@
-Testing
+<div class="home">
+  <h1>Get To Know Vivek</h1>
+
+  <div class="container">
+    <div class="row home-info">
+      <div class="col-sm-4">
+        <div class="my-home-img"></div>
+      </div>
+      <div class="col-sm-8">
+        <p>Hi I'm Vivek and thanks for visiting my site!</p>
+        <p>I built this page to showcase my talents as a Frontend Engineer which
+          was long overdue since I started on my path as a developer.
+        </p>
+        <p>
+          I am passionate about the technology space, and bring a unique background of 
+          sales, software, and hardware experience to the table. I love both the technical
+          and business aspects of a company and hope to leverage my expertise in both in 
+          whichever role I am in!
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <h3>Get In Contact With Me!</h3>  
+      <div class="input-group input-group-lg">
+        <input type="email" class="form-control" 
+          placeholder="Email Address" 
+          aria-label="Email Address" 
+          aria-describedby="sizing-addon1"
+          [(ngModel)]="emailInput"
+          #name="ngModel"
+        />
+        <span class="input-group-btn">
+          <button class="btn btn-secondary" 
+            type="button"
+            (click)="saveEmail()">
+            Submit
+          </button>
+        </span>
+      </div>
+    </div>
+  </div>
+
+</div>
