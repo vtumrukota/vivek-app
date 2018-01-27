@@ -1,5 +1,6 @@
 .home {
-  background-color: white;
+  background-color: transparent;
+  color: white;
 };
 
 .home > h1 {

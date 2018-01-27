@@ -10,10 +10,18 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link" routerLink="/home">Home <span class="sr-only">(current)</span></a>
       <a class="nav-item nav-link" routerLink="/about">About</a>
       <a class="nav-item nav-link" routerLink="/experience">Experience</a>
       <a class="nav-item nav-link" href="#">Contact</a>          
     </div>
+  </div>
+  <div layout="row" layout-align="end center">
+    <ol class="social-media" *ngIf="$ctrl.socialMedia">
+      <li class="social-link" *ngFor="let social of $ctrl.socialMedia;">
+        <a href="social.link" ng-src="social.icon">
+          Test
+        </a>
+      </li>
+    </ol>
   </div>
 </nav>
