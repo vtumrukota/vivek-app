@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark">
+<nav class="navbar navbar-expand-lg navbar-dark" layout="row" layout-align="space-between center">
   <a class="navbar-brand" routerLink="/home">Vivek Tumrukota</a>
   <button class="navbar-toggler" type="button" 
     data-toggle="collapse" 
@@ -8,21 +8,24 @@
     aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div layout="row" layout-align="start center" class="collapse navbar-collapse" id="navbarNavAltMarkup" flex="30">
+  <div layout="row" layout-align="start center" class="collapse navbar-collapse" id="navbarNavAltMarkup" flex="none">
     <div class="navbar-nav">
       <a class="nav-item nav-link" routerLink="/about">About</a>
       <!-- <a class="nav-item nav-link" routerLink="/experience">Experience</a> -->
       <a class="nav-item nav-link" href="#">Contact</a>          
     </div>
   </div>
-  <div layout="row" layout-align="start center" class="social-media">
-    <ul class="social-media-links">
-      <li class="social-link" layout="row" layout-align="start center"
+  <div layout="row" layout-align="end center" class="contact">
+    <a class="email" href="mailto:vtumrukota@gmail.com">Contact Vivek</a>
+  </div>
+  <div layout="row" layout-align="end center" class="social-media">
+    <!-- <ul class="social-media-links"> -->
+      <div class="social-link" layout="row" layout-align="start center"
         *ngFor="let social of socialMedia">
         <a href="{{social.link}}" target="_blank">
           <img [src]="social.icon">
         </a>
-      </li>
-    </ul>
+      </div>
+    <!-- </ul> -->
   </div>
 </nav>

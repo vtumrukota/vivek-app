@@ -1,20 +1,6 @@
 nav.navbar {
-  background-color: black;
+  background: linear-gradient(to right, rgb(0, 19, 245), rgb(238, 105, 44));
   box-shadow: 2px 2px gray;
-}
-
-ul {
-  list-style: none;  
-}
-
-li {
-  display: block;
-  float: left;
-}
-
-li a {
-  display: block;
-  width: 60px;
 }
 
 img {
@@ -27,6 +13,17 @@ img:hover {
   border: 2px solid gray;
 }
 
+.contact {
+  width: 300px;
+}
+
 .social-media {
-  width: 290px;
+  width: 250px;
+}
+
+.social-link {
+  text-align: center;
+  margin: 10px;
+  clear: none;
+  float: right;
 }
